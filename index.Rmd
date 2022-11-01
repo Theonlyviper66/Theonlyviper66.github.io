@@ -11,5 +11,10 @@ output:
 
 My name is Xuesen Zhao, a first-year Biostatistics student at Columbia University School of Public Health. I graduated from Wake Forest University in May 2022, with a Bachelors of Science degree in Biochemistry & Molecular Biology, and a double major in statistics. 
 
-This website listed most of the major academic and professional experiences I've had over the past years. Links to my [Github](https://github.com/Theonlyviper66), and [linkedin](https://www.linkedin.com/in/xuesen-zhao/) could be found here as well as in the navigation bar. 
+This [page](Resume.html) listed most of the major academic and professional experiences I've had over the past years. Links to my [Github](https://github.com/Theonlyviper66), and [linkedin](https://www.linkedin.com/in/xuesen-zhao/) could be found here as well as in the navigation bar. 
 
+## Flexdashboard of instacart data
+
+The dataset contains information on over 3 million online grocery orders from more than 200,000 instacart users in 2017. The original dataset contains 1,384,617 rows and 15 variables. Examples of the variables include the name of the product, the hour of day on which the order was placed, if the product has been ordered by the user in the past, etc. A complete description of the variables and detailed information about the dataset could be found [here](https://p8105.com/dataset_instacart.html). 
+
+Our goal is to visualize some trends in online grocery purchasing based on this particular dataset. For clarity purpose, 2000 samples were randomly selected from the original dataset. A dashboard is created [here](instacart_dashboard.html). Chart A presents the frequency of all aisles, while Chart B and C focus on only three most frequent aisles from which products were purchased. 

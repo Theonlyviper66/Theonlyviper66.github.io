@@ -1,0 +1,75 @@
+---
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("instacart")
+set.seed(100)
+sample_n(instacart, 2000) %>%
+  count(aisle) %>%
+  mutate(aisle= fct_reorder(aisle,n)) %>%
+  plot_ly(
+    x = ~aisle, y = ~n,
+    type = "bar"
+  ) %>%
+  layout(
+    title = "Frequency of each aisle",
+    yaxis = list(title = 'Count')
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+set.seed(100)
+sample_n(instacart, 2000) %>%
+  filter(aisle == c("fresh vegetables","fresh fruits","packaged vegetables fruits")) %>%
+  group_by(aisle,order_dow) %>%
+  count() %>%
+  plot_ly(
+    x = ~order_dow, y = ~n, color = ~aisle, type = "scatter"
+  ) %>%
+  layout(
+    title = "Frequency of each aisle by each day of the week",
+    yaxis = list(title = 'Order Count'),
+    xaxis = list(title = 'The day of the week')
+  )
+  
+```
+
+### Chart C
+
+```{r}
+set.seed(100)
+sample_n(instacart, 2000) %>%
+  filter(aisle == c("fresh vegetables","fresh fruits","packaged vegetables fruits")) %>%
+  plot_ly(
+    x = ~aisle, y = ~order_hour_of_day, color = ~aisle, type = "box"
+  ) %>%
+  layout(
+    title = "Order Hour by the three aisles",
+    yaxis = list(title = 'Order Hour of the day'),
+    xaxis = list(title = 'aisle')
+  )
+  
+```
+

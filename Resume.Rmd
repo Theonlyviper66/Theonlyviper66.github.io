@@ -1,0 +1,45 @@
+---
+title: "Academic & Professional Experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+## Relevant Coursework
+
+Molecular Biology, Virology, Intro to Machine Learning, Probability, Categorical & Multilevel data, Linear Model, etc. 
+
+## Research Experience
+
+**Wake Forest School of Medicine, Winston-Salem**
+
+*Research Assistant, Department of Immunology*
+
+* Cleaned, visualized, and analyzed multivariate flow-cytometry data on over 1,000,000 cells using R
+* Applied principal components method for dimensionality reduction and K-means clustering analysis
+* Guided colleagues to construct an automated pipeline for anomaly detection using statistical metrics 
+* Senior project & presentation; constructed a foundation for the group to continue the research on anomaly detection; reaffirmed the diagnostic potentials of the method for detecting cognitive decline in Alzheimer’s disease patients
+
+**Shanghai Jiao Tong University, Shanghai**
+
+*Research Assistant, Department of Biomedical Engineering*
+
+* Investigated potential treatments for ischemic stroke in murine models
+* Calculated the sample size that caters to experimental designs, participated actively during meetings  
+* Presented to the whole group on how to make statistical interpretations and test hypotheses; effectively improved the understandings of experiment design for group members with no statistical background   
+
+## Competition Prize
+
+**DataFest Competition, the American Statistical Association**
+
+* Analyzed data from an educational game about drug abuse and STD prevention in 11-14 years old
+* Collaborated as a team to clean highly complicated data containing over 1.5 million rows; applied machine learning methods including K-nearest means, random forest, and regression tree for modeling  
+* Won first-place among the higher-level groups at Wake Forest University
+* R scripts and analysis results were sent to the research group at Yale Center for Health & Learning Games for evaluation of the game and insights into designing a more engaging game interface 
+
+## Leadership Experiences
+
+Vice president at K-pop dance group, Core team organizer at Asia for campus-scale and inner-club events
+
