@@ -1,0 +1,15 @@
+---
+title: "About Xuesen Zhao"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+# Welcome to my page!
+
+My name is Xuesen Zhao, a first-year Biostatistics student at Columbia University School of Public Health. I graduated from Wake Forest University in May 2022, with a Bachelors of Science degree in Biochemistry & Molecular Biology, and a double major in statistics. 
+
+This website listed most of the major academic and professional experiences I've had over the past years. Links to my [Github](https://github.com/Theonlyviper66), and [linkedin](https://www.linkedin.com/in/xuesen-zhao/) could be found here as well as in the navigation bar. 
+
